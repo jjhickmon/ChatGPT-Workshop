@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.chat-container {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+.chat-box {
+    height: 200px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+}
+.user {
+    text-align: right;
+    color: green;
+}
+.chatbot {
+    text-align: left;
+    color: blue;
+}
