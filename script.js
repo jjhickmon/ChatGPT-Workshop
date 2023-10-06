@@ -16,7 +16,7 @@ async function sendMessage() {
     appendMessage(response, "chatbot");
 }
 async function getChatbotResponse(userMessage) {
-    const response = await fetch("https://api.openai.com/v1/engines/text-davinci-003/completions", {
+    const response = await fetch("---YOUR OPENAI API KEY HERE---", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
