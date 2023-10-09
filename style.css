@@ -19,9 +19,9 @@ body {
 }
 .user {
     text-align: right;
-    color: green;
+    color: #7D05D4;
 }
 .chatbot {
     text-align: left;
-    color: blue;
+    color: #D0B31D;
 }
