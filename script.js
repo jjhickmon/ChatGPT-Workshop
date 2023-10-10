@@ -1,6 +1,6 @@
 const chatBox = document.getElementById("chat-box");
 const userInput = document.getElementById("user-input");
-const API_KEY = "--YOUR API KEY HERE--";
+const API_KEY = "--Your API Key Here--";
 
 const recognition = new webkitSpeechRecognition();
 recognition.interimResults = true;
@@ -67,7 +67,7 @@ async function getChatbotResponseDialoGPT(userMessage) {
         "past_user_inputs": prev_user_inputs,
         "generated_responses": prev_generated_responses,
         "text": userMessage}}
-    const response = await fetch("https://api-inference.huggingface.co/models/microsoft/DialoGPT-medium", {
+    const response = await fetch("https://api-inference.huggingface.co/models/microsoft/DialoGPT-large", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",

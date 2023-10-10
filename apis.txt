@@ -1,0 +1,3 @@
+https://api-inference.huggingface.co/models/gpt2
+https://api-inference.huggingface.co/models/codellama/CodeLlama-34b-Instruct-hf
+https://api-inference.huggingface.co/models/microsoft/DialoGPT-large
